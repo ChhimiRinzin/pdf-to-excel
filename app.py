@@ -277,7 +277,7 @@ def generate_excel(pdf_file):
             ws.row_dimensions[r].height = 22
 
         for merge, val, ref in [
-            ("B5:C5","Performed by","B5"), ("D5:E5","Signature","D5"),
+            ("B5:C5","Prepared by","B5"), ("D5:E5","Signature","D5"),
             ("F5:G5","Reviewed & agreed by","F5"), ("H5:I5","Signature","H5"),
         ]:
             ws.merge_cells(merge)

@@ -472,7 +472,7 @@ def tool_page():
     st.markdown("""
     <div class="hero">
         <h1><span class="green">Smarter.</span><span class="green"> Faster.</span><span class="green"> Better.</span></h1>
-        <p>Upload your audit report PDF and let automation do the rest.</p>
+        <p>Upload your AWP 4.6 Risk Response PDF and Let Automation Do The Rest.</p>
     </div>
     """, unsafe_allow_html=True)
 
